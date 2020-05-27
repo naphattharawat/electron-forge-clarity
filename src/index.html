@@ -14,36 +14,42 @@
   <div class="login-wrapper">
     <form class="login">
       <section class="title">
-        <h3 class="welcome">Welcome to</h3>
-        Company Product Name
-        <h5 class="hint">Use your Company ID to sign in or create one now</h5>
+        <h3 class="welcome">โปรแกรมส่งออก 5 แฟ้ม</h3>
+        <!-- Company Product Name -->
+        <h5 class="hint">กรุณาเชื่อมต่อฐานข้อมูล</h5>
       </section>
+      <!-- <div class="login-group"> -->
+      <div class="clr-row">
+        <div class="clr-col-4">Host:</div>
+        <div class="clr-col-8">
+          <input type="text" name="host" clrInput placeholder="Host" [(ngModel)]="form.host" />
+        </div>
+
+        <div class="clr-col-4">Username:</div>
+        <div class="clr-col-8"> <input type="text" name="username" clrInput placeholder="Username"
+            [(ngModel)]="form.username" /></div>
+
+        <div class="clr-col-4">Password:</div>
+        <div class="clr-col-8"> <input type="password" name="password" clrPassword placeholder="Password"
+            [(ngModel)]="form.password" /></div>
+
+        <div class="clr-col-4">Port:</div>
+        <div class="clr-col-8"><input type="text" name="port" clrInput placeholder="Port" [(ngModel)]="form.port" />
+        </div>
+
+        <div class="clr-col-4">Database Name:</div>
+        <div class="clr-col-8"><input type="text" name="databaseName" clrInput placeholder="Database Name"
+            [(ngModel)]="form.databaseName" /></div>
+
+      </div>
       <div class="login-group">
-        <clr-select-container>
-          <label class="clr-sr-only">User Role</label>
-          <select clrSelect name="type" [(ngModel)]="form.type">
-            <option value="local">Local Users</option>
-            <option value="admin">Administrator</option>
-          </select>
-        </clr-select-container>
-        <clr-input-container>
-          <label class="clr-sr-only">Username</label>
-          <input type="text" name="username" clrInput placeholder="Username" [(ngModel)]="form.username" />
-        </clr-input-container>
-        <clr-password-container>
-          <label class="clr-sr-only">Password</label>
-          <input type="password" name="password" clrPassword placeholder="Password" [(ngModel)]="form.password" />
-        </clr-password-container>
-        <clr-checkbox-wrapper>
-          <label>Remember me</label>
-          <input type="checkbox" name="rememberMe" clrCheckbox [(ngModel)]="form.rememberMe" />
-        </clr-checkbox-wrapper>
         <div class="error active">
           Invalid user name or password
         </div>
-        <button type="submit" class="btn btn-primary">NEXT</button>
-        <a href="javascript://" class="signup">Sign up for a Company ID</a>
       </div>
+      <button type="submit" class="btn btn-primary">Text Connection</button>
+      <button type="submit" class="btn btn-primary">NEXT</button>
+      <!-- </div> -->
     </form>
   </div>
 </body>
