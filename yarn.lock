@@ -7,6 +7,23 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.5.5.tgz#02f077ac8817d3df4a832ef59de67565e71cca4b"
   integrity sha512-E5BN68cqR7dhKan1SfqgPGhQ178bkVKpXTPEXnFJBrEt8/DKRZlybmy+IgYLTeN7tp1R5Ccmbm2rBk17sHYU3g==
 
+"@clr/angular@^2.0.2":
+  version "2.4.10"
+  resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-2.4.10.tgz#387a7f42664552effba09fa5e14c76a0e37e826d"
+  integrity sha512-w274uCREJz3t5ybWUL30XG/NRWkaa2/ivTUY5gcK70bFl7Gz0ByT0UTylsRH0idlUGojvCzPyMUnD99kfw5dRg==
+  dependencies:
+    tslib "^1.9.0"
+
+"@clr/icons@^2.0.2":
+  version "2.4.10"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-2.4.10.tgz#cf6e8c41b6c105c29b327d5bcdae74c1bf673b28"
+  integrity sha512-tFPH+WHfRMEGLlIuvG8tSzaou6F6JifF4JkMpjFefG8+rb1bdZ4wvtA/qEBI87xWvLJF4ZrXexfVjOfpsZ7ryQ==
+
+"@clr/ui@^2.0.2":
+  version "2.4.10"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-2.4.10.tgz#ec0a35e97a8ac1a9b73171122ef46c57b7618aba"
+  integrity sha512-WW1zbDVYruOsjMbEewVzuyN2xlppofgfpqQ0OCioh5zEswr8LNGC5JLfatf/lzVSKvIRuqvfDIeBNgZGZ+G3gA==
+
 "@octokit/rest@^15.2.6":
   version "15.18.1"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-15.18.1.tgz#ec7fb0f8775ef64dc095fae6635411d3fbff9b62"
@@ -84,6 +101,11 @@
   version "8.10.51"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.51.tgz#80600857c0a47a8e8bafc2dae6daed6db58e3627"
   integrity sha512-cArrlJp3Yv6IyFT/DYe+rlO8o3SIHraALbBW/+CcCYW/a9QucpLI+n2p4sRxAvl2O35TiecpX2heSZtJjvEO+Q==
+
+"@webcomponents/custom-elements@^1.0.0":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@webcomponents/custom-elements/-/custom-elements-1.4.3.tgz#1800d49f38bb4425ebfd160b50115e62776109d7"
+  integrity sha512-iD0YW46SreUQANGccywK/eC+gZELNHocZZrY2fGwrIlx/biQOTkAF9IohisibHbrmIHmA9pVCIdGwzfO+W0gig==
 
 abab@^1.0.0:
   version "1.0.4"
@@ -3644,9 +3666,9 @@ inherits@2, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 ini@^1.3.4, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
+  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
 
 inquirer@^0.12.0:
   version "0.12.0"
