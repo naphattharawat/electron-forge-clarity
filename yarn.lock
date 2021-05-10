@@ -7,6 +7,23 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.5.5.tgz#02f077ac8817d3df4a832ef59de67565e71cca4b"
   integrity sha512-E5BN68cqR7dhKan1SfqgPGhQ178bkVKpXTPEXnFJBrEt8/DKRZlybmy+IgYLTeN7tp1R5Ccmbm2rBk17sHYU3g==
 
+"@clr/angular@^2.0.2":
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-2.4.11.tgz#c610b7767c976c34a17b1759bfc5ab2ff89af9cd"
+  integrity sha512-IVLmzRiYnPl3ctTsg8ptCoIJl8e5/MRV0CkcxuYHSG5zYbzWJs6RmIR+8YR8O1CHd5a4SN2fSUa/ufflQOuoEQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@clr/icons@^2.0.2":
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-2.4.11.tgz#9a4898c41b8135d80e4b1133489a69abf28b302f"
+  integrity sha512-pbWdWkS7E6sCrDfgDTtAzv9JEo+f45ENJjdUY4YhgAJa3VzPiKEvAASURxnn3WX2KlabWNUUnfiqWnrRMPckyw==
+
+"@clr/ui@^2.0.2":
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-2.4.11.tgz#6f14f8f80926ed53a7df9f862eac78a7bcc6b019"
+  integrity sha512-UmV88TYrKydNvKaTs3a/2U2c6PS05Vqp/4o5JSZBLVdfvrSrFTtRmnicYYd85XK/1B5vSlVjCQy90W5JDV6FoA==
+
 "@octokit/rest@^15.2.6":
   version "15.18.1"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-15.18.1.tgz#ec7fb0f8775ef64dc095fae6635411d3fbff9b62"
@@ -84,6 +101,11 @@
   version "8.10.51"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.51.tgz#80600857c0a47a8e8bafc2dae6daed6db58e3627"
   integrity sha512-cArrlJp3Yv6IyFT/DYe+rlO8o3SIHraALbBW/+CcCYW/a9QucpLI+n2p4sRxAvl2O35TiecpX2heSZtJjvEO+Q==
+
+"@webcomponents/custom-elements@^1.0.0":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@webcomponents/custom-elements/-/custom-elements-1.4.3.tgz#1800d49f38bb4425ebfd160b50115e62776109d7"
+  integrity sha512-iD0YW46SreUQANGccywK/eC+gZELNHocZZrY2fGwrIlx/biQOTkAF9IohisibHbrmIHmA9pVCIdGwzfO+W0gig==
 
 abab@^1.0.0:
   version "1.0.4"
@@ -3527,9 +3549,9 @@ homedir-polyfill@^1.0.1:
     parse-passwd "^1.0.0"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
-  integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-comment-regex@^1.1.0:
   version "1.1.2"
