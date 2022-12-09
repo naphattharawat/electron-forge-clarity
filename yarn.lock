@@ -7,6 +7,23 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.5.5.tgz#02f077ac8817d3df4a832ef59de67565e71cca4b"
   integrity sha512-E5BN68cqR7dhKan1SfqgPGhQ178bkVKpXTPEXnFJBrEt8/DKRZlybmy+IgYLTeN7tp1R5Ccmbm2rBk17sHYU3g==
 
+"@clr/angular@^2.0.2":
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-2.4.11.tgz#c610b7767c976c34a17b1759bfc5ab2ff89af9cd"
+  integrity sha512-IVLmzRiYnPl3ctTsg8ptCoIJl8e5/MRV0CkcxuYHSG5zYbzWJs6RmIR+8YR8O1CHd5a4SN2fSUa/ufflQOuoEQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@clr/icons@^2.0.2":
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-2.4.11.tgz#9a4898c41b8135d80e4b1133489a69abf28b302f"
+  integrity sha512-pbWdWkS7E6sCrDfgDTtAzv9JEo+f45ENJjdUY4YhgAJa3VzPiKEvAASURxnn3WX2KlabWNUUnfiqWnrRMPckyw==
+
+"@clr/ui@^2.0.2":
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-2.4.11.tgz#6f14f8f80926ed53a7df9f862eac78a7bcc6b019"
+  integrity sha512-UmV88TYrKydNvKaTs3a/2U2c6PS05Vqp/4o5JSZBLVdfvrSrFTtRmnicYYd85XK/1B5vSlVjCQy90W5JDV6FoA==
+
 "@octokit/rest@^15.2.6":
   version "15.18.1"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-15.18.1.tgz#ec7fb0f8775ef64dc095fae6635411d3fbff9b62"
@@ -84,6 +101,11 @@
   version "8.10.51"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.51.tgz#80600857c0a47a8e8bafc2dae6daed6db58e3627"
   integrity sha512-cArrlJp3Yv6IyFT/DYe+rlO8o3SIHraALbBW/+CcCYW/a9QucpLI+n2p4sRxAvl2O35TiecpX2heSZtJjvEO+Q==
+
+"@webcomponents/custom-elements@^1.0.0":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@webcomponents/custom-elements/-/custom-elements-1.5.1.tgz#48029f6c62b94a4b49be061ca1dae04ab9681ace"
+  integrity sha512-6T/XT3S1UHDlRWFSxRXdeSoYWczEl78sygNPS7jDyHVrfZcF/pUtWGYgxF4uviH59iPVw1eOWbhubm8CqO0MpA==
 
 abab@^1.0.0:
   version "1.0.4"
@@ -5495,9 +5517,9 @@ q@^1.1.2:
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
-  integrity sha1-E+JtKK1rD/qpExLNO/cI7TUecjM=
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.1.tgz#2bad97710a5b661c366b378b1e3a44a592ff45e6"
+  integrity sha512-LQy1Q1fcva/UsnP/6Iaa4lVeM49WiOitu2T4hZCyA/elLKu37L99qcBJk4VCCk+rdLvnMzfKyiN3SZTqdAZGSQ==
 
 qs@~6.5.2:
   version "6.5.2"
